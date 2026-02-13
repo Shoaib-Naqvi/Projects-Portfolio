@@ -72,7 +72,7 @@ const ProjectCard = ({ project }) => {
                 initial={{ opacity: 0, x: -20 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.2 }}
-                className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight text-white tracking-tight"
+                className="text-2xl sm:text-3xl md:text-5xl font-bold leading-tight text-white tracking-tight"
               >
                 {project.title}
               </motion.h2>
@@ -177,7 +177,6 @@ const ProjectCard = ({ project }) => {
                       <ChevronRight className="w-4 h-4 md:w-5 md:h-5" />
                     </button>
 
-                    {/* Image Indicators */}
                     <div className="absolute bottom-3 md:bottom-4 left-1/2 -translate-x-1/2 flex space-x-2">
                       {images.map((_, index) => (
                         <button

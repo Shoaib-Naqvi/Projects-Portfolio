@@ -75,7 +75,7 @@ const Navbar = () => {
             initial={{ opacity: 0, y: -20, scale: 0.95 }}
             animate={{ opacity: 1, y: 0, scale: 1 }}
             exit={{ opacity: 0, y: -20, scale: 0.95 }}
-            className="md:hidden absolute top-20 left-6 right-6 bg-[#0b011d]/90 backdrop-blur-2xl border border-white/10 rounded-2xl p-4 shadow-3xl overflow-hidden"
+            className="md:hidden absolute top-20 left-4 right-4 bg-[#0b011d]/95 backdrop-blur-2xl border border-white/10 rounded-2xl p-4 shadow-3xl overflow-hidden"
           >
             <div className="flex flex-col space-y-2">
               {navLinks.map((link) => (

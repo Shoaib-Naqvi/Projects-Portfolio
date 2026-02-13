@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import projectService from "../services/projectService";
 import ProjectCard from "../components/ProjectCard";
+import ProjectHeader from "../components/ProjectHeader";
 
 const AIProjects = () => {
   const [projects, setProjects] = useState([]);
@@ -41,7 +42,8 @@ const AIProjects = () => {
   }
 
   return (
-    <div className="w-full max-w-7xl mx-auto px-6 py-20">
+    <div className="w-full max-w-7xl mx-auto px-0 md:px-6 py-20 bg-transparent">
+      <ProjectHeader title="AI PORTFOLIO" subtitle="AI PROJECTS" />
       <div className="flex flex-col">
         {projects.map((project) => (
           <ProjectCard key={project._id} project={project} />
