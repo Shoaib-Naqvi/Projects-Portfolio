@@ -48,7 +48,7 @@ const Footer = () => {
               <div className="p-1.5 bg-purple-600/10 rounded-xl border border-purple-500/20 group-hover:scale-110 transition-transform duration-300">
                 <OrnateLogo size={32} />
               </div>
-              <span className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent italic tracking-tighter">
+              <span className="text-2xl font-bold bg-gradient-to-r from-purple-400 to-[#ff4444] bg-clip-text text-transparent italic tracking-tighter">
                 {footerData.logo}
               </span>
             </Link>
