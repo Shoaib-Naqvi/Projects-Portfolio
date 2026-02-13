@@ -77,7 +77,7 @@ const OrnateLogo = ({ size = 24, className = "", showText = false }) => {
             ease: "easeOut",
           }}
           className="text-lg md:text-xl font-bold tracking-tighter text-white"
-          style={{ fontSize: `clamp(14px, ${size * 0.67}px, 24px)` }}
+          style={{ fontSize: `clamp(14px, ${size * 0.75}px, 28px)` }}
         >
           PORTFOLIO
         </motion.span>
